@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.row-movies{
+    width: 100px;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row-movie{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row-movies:hover{
+    transform: scale(1.2);
+}
+
+.row-movie::-webkit-scrollbar{
+    display: none;
+}
+
+._postlarge{
+    max-height: 200px;
+}
+
+._postlarge:hover{
+    transform: scale(1.2);
+}
+
+.row{
+    color: white;
+    margin-left: 20px;
+}
+
+.para{
+    background: url(../html/IMG_20220724_233435_447.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    margin-bottom: 15px;
+    cursor: grab;
+}
+.para_content{
+    padding-top: 120px;
+    margin-left: 30px;
+}
+
+.p_tittle{
+    color: black;
+    margin-bottom: 15px;
+    cursor: grab;
+}
+.button{
+    margin: 10px;
+}
+button{
+    padding: 4px 10px;
+    border:1px solid grey;
+    border-radius: 20px;
+    background-color:rgb(51,51,51,0.5);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: grey;
+    border:1px solid black;
+}
+
+.line{
+    width: 400px;
+    color: black;
+    font-weight: bold;
+} 
+
+.fade{
+    height: 75px;
+    margin-top: 39px;
+    background:linear-gradient(180deg,transparent,rgb(21,21,21,0.61),black);
+}
+
+.nav{
+    position: fixed;
+}
