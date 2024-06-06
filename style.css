@@ -94,7 +94,7 @@ span .btn{
 }
 @media (min-width:300px) {
     .lower-nav input{
-        max-width:140px;
+        max-width:150px;
     }
 }
 @media (min-width:768px) {
