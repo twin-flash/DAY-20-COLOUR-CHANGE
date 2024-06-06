@@ -48,6 +48,7 @@ span .btn{
 }
 .lower-nav input{
     border:none;
+    max-width:100px;
     background-color: rgba(0, 0, 0, 0);
     border-radius:20px 0px 0px 20px;
     color:white;
@@ -84,11 +85,18 @@ span .btn{
 }
 .dropdown-item{
     padding:3px 5px;
+    text-align: center;
+    color:#DC5F00;
 }
-.dropdown-item{
-    color:orange;
+.dropdown-item:hover{
+    color:#DC5F00;
+    background-color:aliceblue;
 }
-
+@media (min-width:300px) {
+    .lower-nav input{
+        max-width:140px;
+    }
+}
 @media (min-width:768px) {
     body{
         margin:2%;
