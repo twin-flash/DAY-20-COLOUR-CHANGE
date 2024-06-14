@@ -2,6 +2,11 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
+header{
+    text-align: center;
+    letter-spacing:5px;
+    color:linear-gradient(0deg,#DC5F00,grey);
+}
 
 textarea {
     margin-top: 30px;
@@ -60,6 +65,7 @@ li{
     display: flex;
     width:90%;
     margin:10px;
+    padding:3px;
     justify-content: space-between;
     align-items:center;
     list-style-type: none;
@@ -67,4 +73,5 @@ li{
     font-weight: 400;
     font-style: normal;
     word-wrap: break-word;
+    border-bottom:2px #DC5F00 solid;
 }
