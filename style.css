@@ -104,6 +104,9 @@ span .btn{
     .lower-nav{
         padding:20px 10px;
     }
+    .lower-nav input{
+        max-width:250px;
+    }
     .lower-nav button{
         background-color:rgba(0, 0, 0, 0);
         color: grey;
