@@ -84,3 +84,6 @@ li{
     word-wrap: break-word;
     border-bottom:2px #DC5F00 solid;
 }
+.list-container{
+    padding: 0;
+}
