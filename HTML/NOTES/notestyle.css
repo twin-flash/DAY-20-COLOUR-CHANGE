@@ -87,3 +87,13 @@ li{
 .list-container{
     padding: 0;
 }
+@media (min-width:769px){
+    body{
+        margin:0 10%;
+    }
+}
+@media (min-width:1025px){
+    body{
+        margin:0 20%;
+    }
+}
