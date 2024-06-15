@@ -2,10 +2,11 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-header{
+header a{
     text-align: center;
     letter-spacing:5px;
-    color:linear-gradient(0deg,#DC5F00,grey);
+    color:white;
+    text-decoration:none;
 }
 
 textarea {
