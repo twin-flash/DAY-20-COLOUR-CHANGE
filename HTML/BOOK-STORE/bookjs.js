@@ -30,15 +30,18 @@ function book(event){
 }
 var darkmode=document.querySelector(".nightmode")
 var bookcontainer=document.querySelector(".book-container")
+var body=document.querySelector(".body")
 var daymode=document.querySelector(".daymode")
 
 darkmode.addEventListener("click",function(){
   bookcontainer.style.border="2px white solid"
   container.style.backgroundColor="black"
+  body.style.backgroundColor="black"
   
 })
 daymode.addEventListener("click",function(){
   bookcontainer.style.border="2px white solid"
   container.style.backgroundColor="white"
+  body.style.backgroundColor="white"
   
 })
