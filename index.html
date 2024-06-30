@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body class="containment">
+<body class="containment m-0">
   <nav class="upper-nav navbar navbar-expand-sm" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -52,64 +52,91 @@
       </button>
     </div>
     <a href="#"><i class="bi bi-funnel-fill"></i></a>
-    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-book-half"></i>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#" onclick="mode_red()">Red</a></li>
-      <li>
-        <hr class="dropdown-divider">
-      </li>
-      <li><a class="dropdown-item" onclick="mode_orange()" href="#">Orange</a></li>
-    </ul>
 
   </div>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-theme="dark">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+
+  <div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-theme="dark">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <a href="./HTML/GALLERY/html/index.html" target="_blank"><img src="./CSS/Screenshot 2024-04-18 163534.png"
+              class="d-block w-100" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h6>MK Gallery</h6>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="./HTML/BOOK-STORE/index.html" target="_blank"><img src="./CSS/WebBook.png" class="d-block w-100"
+              alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h6>BOOK STORE</h6>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="./HTML/NOTES/index.html" target="_blank"><img src="./CSS/newnotes.png" class="d-block w-100"
+              alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h6>To-Do List</h6>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
-        <a href="./HTML/GALLERY/html/index.html" target="_blank"><img src="./CSS/Screenshot 2024-04-18 163534.png"
-            class="d-block w-100" alt="..."></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h6>MK Gallery</h6>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <a href="./HTML/BOOK-STORE/index.html" target="_blank"><img src="./CSS/WebBook.png"
-          class="d-block w-100" alt="..."></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h6>BOOK STORE</h6>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <a href="./HTML/NOTES/index.html" target="_blank"><img src="./CSS/newnotes.png"
-            class="d-block w-100" alt="..."></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h6>To-Do List</h6>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
+  <hr>
+  <div class="top5-designs">
+    <div class="side-heading">
+      <h2>Top 5 Design</h2>
+      <p>Still under development</p>
+    </div>
+    <div class="top-design">
+      <div class="design-item">
+        <img src="./CSS/top-design.png" alt="">
+        <h4>Testing</h4>
+        <p>testing</p>
+      </div>
+      <div class="design-item">
+        <img src="./CSS/top-design.png" alt="">
+        <h4>Testing</h4>
+        <p>testing</p>
+      </div>
+      <div class="design-item">
+        <img src="./CSS/top-design.png" alt="">
+        <h4>Testing</h4>
+        <p>testing</p>
+      </div>
+      <div class="design-item">
+        <img src="./CSS/top-design.png" alt="">
+        <h4>Testing</h4>
+        <p>testing</p>
+      </div>
+    </div>
+  </div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="./java.js"></script>
+  <script src="./java.js"></script>
 </body>
 
 </html>

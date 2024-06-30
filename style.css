@@ -1,3 +1,9 @@
+:root{
+    --border-grey:grey solid 2px;
+    --border-white:white solid 2px;
+    --border-orange:#DC5F00 solid 2px;
+}
+
 body{
     color:rgb(141, 138, 138);
     background-color:rgb(0, 0, 0);
@@ -80,18 +86,7 @@ span .btn{
     padding:15px 10px;
     background-color:rgb(62, 62, 62);
 }
-.dropdown-menu{
-    min-width:5rem;
-}
-.dropdown-item{
-    padding:3px 5px;
-    text-align: center;
-    color:#DC5F00;
-}
-.dropdown-item:hover{
-    color:#DC5F00;
-    background-color:aliceblue;
-}
+
 @media (min-width:300px) {
     .lower-nav input{
         max-width:150px;
@@ -141,6 +136,9 @@ span .btn{
         border:none;
     }
 }
+.page-content{
+    margin:0 20px;
+}
 .carousel img{
     aspect-ratio:190/100;
     background-position:center;
@@ -148,13 +146,11 @@ span .btn{
     background-size:cover;
 }
 .carousel{
-    z-index:-10;
-    border:2px #ffffff00 solid;
-    margin:20px;
-    position:absolute;
+    margin:10px;
+    border:white solid 1px;
 }
 .carousel:hover{
-    border:2px #DC5F00 solid;
+    border:1px #DC5F00 solid;
 }
 .carousel-control-next,.carousel-control-prev{
     display:flex;
@@ -179,6 +175,48 @@ span .btn{
     background-color:#eeee;
     margin-bottom:8px;
 }
+.top5-designs{
+    display: flex;
+    border:var(--border-white);
+    border-radius:10px;
+    margin: 0 10px;
+    padding: 20px 10px;
+    overflow-x: scroll;
+    align-items: center;
+}
+.side-heading{
+    width:200px;
+    height:310px;
+    display: flex;
+    color: white;
+    background: black;
+
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    text-wrap: wrap; 
+    position:absolute;
+    left:12px;
+}
+.top-design{
+    display: flex;
+    gap: 5px;
+    margin-left: 200px;
+}
+.design-item{
+    border:var(--border-orange);
+    padding:5px;
+    border-radius:10px;
+}
+.design-item img{
+    width: 150px;
+    margin-bottom:10px;
+    border-radius:10px;
+    
+}
+.design-item img h4{
+    margin-bottom:5px;
+}
 @media (min-width:769px) {
     .carousel{
         width:70%;
@@ -187,5 +225,11 @@ span .btn{
 @media (min-width:1025px) {
     .carousel{
         width:60%;
+    }
+    .page-content{
+        margin:0 40px;
+    }
+    .page-content{
+        margin:0 50px;
     }
 }
