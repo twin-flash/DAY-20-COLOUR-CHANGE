@@ -177,36 +177,39 @@ span .btn{
 }
 .top5-designs{
     display: flex;
-    border:var(--border-white);
     border-radius:10px;
     margin: 0 10px;
-    padding: 20px 10px;
     overflow-x: scroll;
     align-items: center;
+    background-image:url(./CSS/mesh-206.png);
+    background-size: cover;
+    justify-content: space-between;
 }
 .side-heading{
-    width:200px;
-    height:310px;
     display: flex;
+    width:20%;
+    height:400px;
+    display:;
     color: white;
     background: black;
-
     text-align: center;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     text-wrap: wrap; 
-    position:absolute;
-    left:12px;
+    left:0px;
+    position: sticky;
 }
 .top-design{
     display: flex;
     gap: 5px;
-    margin-left: 200px;
+    width: 80%;
 }
 .design-item{
     border:var(--border-orange);
     padding:5px;
     border-radius:10px;
+    background-color: black;
 }
 .design-item img{
     width: 150px;
