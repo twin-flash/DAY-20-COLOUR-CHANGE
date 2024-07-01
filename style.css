@@ -201,6 +201,9 @@ span .btn {
     background-color: #1f1f1f;
     border-radius: 5px;
 }
+.carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out
+}
 
 .carousel-indicators {
     border-radius: 50px;
@@ -251,7 +254,7 @@ span .btn {
 }
 
 .design-item img {
-    width: 150px;
+    width: 100px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -270,7 +273,9 @@ span .btn {
     .side-heading {
         position: sticky;
     }
-
+    .design-item img {
+        width: 150px;
+    }
     .design-item img h4 {
         margin-bottom: 5px;
     }
