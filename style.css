@@ -211,14 +211,13 @@ span .btn {
 
 .top5-designs {
     display: flex;
-    padding:10px;
-    border-radius: 10px;
+    padding: 10px;
     margin: 0 10px;
     overflow-x: scroll;
     align-items: center;
     background-size: cover;
     justify-content: space-between;
-    border: var(--border-white);
+    border-bottom: var(--border-white);
 }
 
 .side-heading {
@@ -271,13 +270,15 @@ span .btn {
     .side-heading {
         position: sticky;
     }
+
     .design-item img h4 {
         margin-bottom: 5px;
     }
+
     .design-item h4,
-.design-item p {
-    display:flex;
-}
+    .design-item p {
+        display: flex;
+    }
 }
 
 @media (min-width:1025px) {
