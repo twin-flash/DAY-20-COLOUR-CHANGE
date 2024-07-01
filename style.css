@@ -220,6 +220,9 @@ span .btn {
     background-size: cover;
     justify-content: space-between;
 }
+.top5-designs::-webkit-scrollbar{
+    display: none;
+}
 
 .side-heading {
     display: flex;
@@ -246,17 +249,20 @@ span .btn {
 .design-item {
     border-bottom: var(--border-orange);
     border-right: var(--border-orange);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
-    background-color: black;
+    background-color:black;
 }
 
 .design-item img {
     width: 100px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
+.design-item img:hover {
+    transition: all 0.5s ease;
+    border-radius: 3px;
+    transform:scale(1.05);
+}
 .design-item h4,
 .design-item p {
     display: none;
@@ -276,6 +282,8 @@ span .btn {
     }
     .design-item img {
         width: 150px;
+    margin-bottom: 5px;
+
     }
     .design-item img h4 {
         margin-bottom: 5px;
