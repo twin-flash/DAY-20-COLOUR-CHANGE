@@ -214,13 +214,11 @@ span .btn {
 
 .top5-designs {
     display: flex;
-    padding: 10px;
     margin: 0 10px;
     overflow-x: scroll;
     align-items: center;
     background-size: cover;
     justify-content: space-between;
-    border-bottom: var(--border-white);
 }
 
 .side-heading {
@@ -271,7 +269,10 @@ span .btn {
     }
 
     .side-heading {
+        width: 60%;
+        height: 320px;
         position: sticky;
+
     }
     .design-item img {
         width: 150px;
