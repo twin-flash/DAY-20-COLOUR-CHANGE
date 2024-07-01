@@ -211,6 +211,7 @@ span .btn {
 
 .top5-designs {
     display: flex;
+    padding:10px;
     border-radius: 10px;
     margin: 0 10px;
     overflow-x: scroll;
@@ -223,7 +224,7 @@ span .btn {
 .side-heading {
     display: flex;
     width: 50%;
-    height: 330px;
+    height: 200px;
     color: white;
     padding: 30px;
     background: black;
@@ -243,9 +244,10 @@ span .btn {
 }
 
 .design-item {
-    border: var(--border-orange);
-    padding: 5px;
+    border-bottom: var(--border-orange);
+    border-right: var(--border-orange);
     border-radius: 10px;
+    padding: 5px;
     background-color: black;
 }
 
@@ -255,7 +257,9 @@ span .btn {
     border-radius: 10px;
 }
 
-.design-item img h4 {
+.design-item h4,
+.design-item p {
+    display: none;
     margin-bottom: 5px;
 }
 
@@ -267,6 +271,13 @@ span .btn {
     .side-heading {
         position: sticky;
     }
+    .design-item img h4 {
+        margin-bottom: 5px;
+    }
+    .design-item h4,
+.design-item p {
+    display:flex;
+}
 }
 
 @media (min-width:1025px) {
