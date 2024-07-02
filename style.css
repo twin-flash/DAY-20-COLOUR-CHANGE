@@ -5,7 +5,7 @@
     --border-white: white solid 2px;
     --border-orange: #DC5F00 solid 2px;
     --border-white-lite: rgb(129, 129, 129) solid 2px;
-
+    --margin-bottom:40px;
 }
 p{
     margin:0;
@@ -171,6 +171,7 @@ span .btn {
 .carousel {
     margin: 10px auto;
     border: var(--border-grey);
+    margin-bottom: var(--margin-bottom);
 }
 
 .carousel:hover {
@@ -226,7 +227,6 @@ span .btn {
     height: 200px;
     color: white;
     padding: 30px;
-    background: black;
     text-align: center;
     align-items: center;
     flex-direction: column;
@@ -240,8 +240,6 @@ span .btn {
     display: flex;
     gap: 15px;
     width: 80%;
-    background:url(./CSS//Contour\ Line.svg);
-    background-position: cover;
 }
 
 .design-item {
@@ -291,8 +289,11 @@ span .btn {
     .side-heading {
         z-index: 10;
         width: 60%;
-        height: 400px;
+        height:380px;
         position: sticky;
+        border-radius: 10px 0 0 10px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border: var(--border-grey);
     }
     .design-item img {
         width: 150px;
