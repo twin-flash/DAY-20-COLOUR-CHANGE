@@ -2,6 +2,8 @@
     --border-grey: grey solid 2px;
     --border-white: white solid 2px;
     --border-orange: #DC5F00 solid 2px;
+    --border-white-lite: rgb(129, 129, 129) solid 2px;
+
 }
 p{
     margin:0;
@@ -275,7 +277,7 @@ span .btn {
     text-decoration:none;
     color: white;
     padding: 5px;
-    margin: 0px 5px;
+    margin:5px;
 }
 .design-item a:hover{
     text-decoration:underline;
