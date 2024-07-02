@@ -243,6 +243,9 @@ span .btn {
 }
 
 .design-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-bottom: var(--border-orange);
     border-right: var(--border-orange);
     border-radius: 5px;
@@ -289,7 +292,7 @@ span .btn {
     .side-heading {
         z-index: 10;
         width: 60%;
-        height:380px;
+        height:400px;
         position: sticky;
         border-radius: 10px 0 0 10px;
         background-color: rgba(0, 0, 0, 0.9);
