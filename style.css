@@ -41,7 +41,7 @@ span .line {
     margin-bottom: 0;
 }
 .navbar-collapse{
-    transition:all .4s ease-in;
+    transition:all .3s linear;
 
 
 }
