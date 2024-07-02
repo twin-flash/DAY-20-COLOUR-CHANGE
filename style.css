@@ -1,4 +1,6 @@
 :root {
+    --color-orange:#DC5F00;
+    --color-grey:#3E3E3E;
     --border-grey: grey solid 2px;
     --border-white: white solid 2px;
     --border-orange: #DC5F00 solid 2px;
@@ -45,13 +47,6 @@ span .line {
 
 span .btn {
     color: #DC5F00;
-}
-
-@media (min-width:631px) {}
-
-.dropdown-menu {
-    position: absolute;
-    z-index: 100;
 }
 
 .navbar-toggler {
@@ -104,7 +99,7 @@ span .btn {
     width: 100%;
     justify-content: space-around;
     padding: 15px 10px;
-    background-color: rgb(62, 62, 62);
+    background-color: #3E3E3E;
 }
 
 @media (min-width:300px) {
@@ -174,12 +169,12 @@ span .btn {
 }
 
 .carousel {
-    margin: 10px;
-    border: var(--border-white);
+    margin: 10px auto;
+    border: var(--border-grey);
 }
 
 .carousel:hover {
-    border: var(--border-orange);
+    border: var(--border-white);
 }
 
 .carousel-control-next,
@@ -245,6 +240,8 @@ span .btn {
     display: flex;
     gap: 15px;
     width: 80%;
+    background:url(./CSS//Contour\ Line.svg);
+    background-position: cover;
 }
 
 .design-item {
@@ -262,6 +259,7 @@ span .btn {
     transition: all 0.5s ease;
 }
 .design-item img:hover {
+    z-index: 1;
     transition: all 0.5s ease;
     border-radius: 3px;
     transform:scale(1.05);
@@ -276,8 +274,7 @@ span .btn {
     justify-content: space-between;
     text-decoration:none;
     color: white;
-    padding: 5px;
-    margin:5px;
+    margin: 5px;
 }
 .design-item a:hover{
     text-decoration:underline;
@@ -286,12 +283,16 @@ span .btn {
     .carousel {
         width: 70%;
     }
+    .top5-designs {
+        max-width:90%;
+        margin:5px auto;
+    }
 
     .side-heading {
+        z-index: 10;
         width: 60%;
-        height: 320px;
+        height: 400px;
         position: sticky;
-
     }
     .design-item img {
         width: 150px;
@@ -310,5 +311,14 @@ span .btn {
 @media (min-width:1025px) {
     .carousel {
         width: 60%;
+    }
+    .side-heading {
+
+    }
+    .top5-designs {
+        max-width:70%;
+        margin:5px auto;
+        border-radius:5px;
+        background-color:;
     }
 }
