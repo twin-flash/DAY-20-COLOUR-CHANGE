@@ -164,10 +164,6 @@ span .btn {
     }
 }
 
-.page-content {
-    margin: 0 20px;
-}
-
 .carousel img {
     aspect-ratio: 190/100;
     background-position: center;
@@ -255,6 +251,7 @@ span .btn {
     border-radius: 5px;
     padding: 5px;
     background-color:black;
+    padding-bottom: 0;
 }
 
 .design-item img {
@@ -269,14 +266,14 @@ span .btn {
 }
 .design-item-heading{
     display: none;
+    padding: 5px;
+    margin: 0px 5px;
 }
 .design-item a{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
     text-decoration:none;
     color: white;
-    margin: 0px 5px;
 }
 .design-item a:hover{
     text-decoration:underline;
@@ -301,22 +298,13 @@ span .btn {
         margin-bottom: 5px;
     }
 
-    .design-item h4,
-    .design-item p {
-        display: flex;
+    .design-item-heading{
+        display:block;
     }
 }
 
 @media (min-width:1025px) {
     .carousel {
         width: 60%;
-    }
-
-    .page-content {
-        margin: 0 40px;
-    }
-
-    .page-content {
-        margin: 0 50px;
     }
 }
