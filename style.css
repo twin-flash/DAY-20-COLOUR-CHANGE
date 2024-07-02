@@ -40,7 +40,11 @@ span .line {
     justify-content: center;
     margin-bottom: 0;
 }
+.navbar-collapse{
+    transition:all .4s ease-in;
 
+
+}
 .title-bar .mk {
     letter-spacing: 8px;
 }
@@ -240,7 +244,6 @@ span .btn {
     position: relative;
     background:rgb(20,20,20);
     border-radius: 10px 0 0 10px;
-
 }
 
 .top-designs {
