@@ -3,6 +3,9 @@
     --border-white: white solid 2px;
     --border-orange: #DC5F00 solid 2px;
 }
+p{
+    margin:0;
+}
 
 body {
     color: rgb(141, 138, 138);
@@ -264,12 +267,20 @@ span .btn {
     border-radius: 3px;
     transform:scale(1.05);
 }
-.design-item h4,
-.design-item p {
+.design-item-heading{
     display: none;
-    margin-bottom: 5px;
 }
-
+.design-item a{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-decoration:none;
+    color: white;
+    margin: 0px 5px;
+}
+.design-item a:hover{
+    text-decoration:underline;
+}
 @media (min-width:769px) {
     .carousel {
         width: 70%;
