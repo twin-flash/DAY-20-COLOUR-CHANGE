@@ -216,6 +216,10 @@ span .btn {
     align-items: center;
     background-size: cover;
     justify-content: space-between;
+    background:rgb(10, 10, 10);
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+
 }
 .top5-designs::-webkit-scrollbar{
     display: none;
@@ -224,7 +228,7 @@ span .btn {
 .side-heading {
     display: flex;
     width: 50%;
-    height: 200px;
+    height: 230px;
     color: white;
     padding: 30px;
     text-align: center;
@@ -234,6 +238,9 @@ span .btn {
     text-wrap: wrap;
     left: 0px;
     position: relative;
+    background:rgb(10, 10, 10);
+    border-radius: 10px 0 0 10px;
+
 }
 
 .top-designs {
