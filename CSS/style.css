@@ -134,6 +134,7 @@ body {
     }
     .profile img{
         height:30px;
+        margin-left:16px;
     }
     .ver-beta{
         font-weight: 300;
