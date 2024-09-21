@@ -137,6 +137,7 @@ body {
     }
     .ver-beta{
         font-weight: 300;
+        font-size: xx-small;
     }
     .asgn-container{
         border-radius:15px;
